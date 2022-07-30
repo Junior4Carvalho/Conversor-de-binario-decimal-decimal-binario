@@ -1,6 +1,6 @@
 # Conversor de binario para decimal - decimal para binario
 
-Esse é um simples conversor de números decimais para binários e vice-versa usando PYTHON
+Esse é um simples conversor de números decimais para binários e vice-versa feito em PYTHON
 ## 
 ## Passos
 	
