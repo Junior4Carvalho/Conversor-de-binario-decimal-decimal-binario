@@ -1,4 +1,4 @@
-# Conversor de binario para decimal-decimalbinario
+# Conversor de binario para decimal - decimal para binario
 
 Esse é um simples conversor de números decimais para binários e vice-versa usando PYTHON
 ## 
