@@ -78,3 +78,5 @@ try:
 except:
     print("Digite apenas [0] ou [1]... ")
     exit()
+    
+#Copyright-@Junior4Carvalho
