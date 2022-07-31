@@ -5,24 +5,25 @@ result = []
 
 try:
     ask = int(input("Deseja converter de binário para decimal [0] ou de decimal para binário [1]? \n "))
-
-    if ask == 0:
+    
+    if ask == 0: 
         try:
             numb = input("Digite um número em binário: ")
             dec = 0
             size = len(numb) -1
-            for x in bin:
+            for x in numb:
                 if x == "1":
                     dec+=2**size
                     size-=1
                 else:
                     size-=1
-                
-            print("{} em decimal é : {} ".format(numb, dec))
+            
+            print("{} em binário é: {} em decimal.".format(numb, dec))
         except:
-            print("Digite apenas números... ")
-    else:
-        
+            print("Digite apenas números...")
+    
+
+    elif ask == 1:
         try:
             user = int(input("Digite um número para ser convertido em Binário: "))
             none = user
@@ -43,10 +44,6 @@ try:
 
             num.reverse()
 
-            if num[0] > user:
-                while num[0] > user:
-                    del(num[0]) 
-
             while len(num) > 0 :
 
                 if num[0] > user:
@@ -63,15 +60,21 @@ try:
                     del(num[0])
                     result.append(1)
                 
-
             while result[0] == 0:
                 del(result[0])    
             
-            print("{} em binário é: {}".format(none, result))
-                        
+            restring = str(result).strip('[]')
+            rest = ''.join(map(str, result))
+            print("{} em binário é: {} em decimal".format(none, rest))
+                
+                 
         except:
-            print("Digite apenas números inteiros")
+            print("Digite apenas números")                                                                    
             exit()
+
+        
+        
 
 except:
     print("Digite apenas [0] ou [1]... ")
+    exit()
