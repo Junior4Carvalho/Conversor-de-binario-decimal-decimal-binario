@@ -10,6 +10,6 @@ Esse é um simples conversor de números decimais para binários e vice-versa fe
   - E o resultado será mostrado na TELA
   <br>
 
-## Crédito ⬇️
+## Créditos ⬇️
 - <a href="https://github.com/Junior4Carvalho">Junior Carvalho </a> 🚀
  
